@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{202:function(e,n,t){__NEXT_REGISTER_PAGE("/",function(){return e.exports=t(203),{page:e.exports.default}})},203:function(e,n,t){"use strict";t.r(n);var o=t(10),a=t.n(o);t(204);n.default=function(){return a.a.createElement("div",{className:"example"},"Hello World!")}}},[[202,1,0,6]]]);

@@ -252,7 +252,8 @@
       "node_modules/@babel/runtime-corejs2/core-js/is-iterable.js": 225,
       "node_modules/core-js/library/fn/is-iterable.js": 226,
       "node_modules/core-js/library/modules/core.is-iterable.js": 227,
-      "node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js": 228
+      "node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js": 228,
+      "styles/style.scss": 204
     },
     "usedIds": {
       "0": 0,
@@ -497,7 +498,25 @@
       "styles": 6,
       "static\\qshSIT0wWBPVYQcRCiQlT\\pages\\index.js": 7,
       "static\\qshSIT0wWBPVYQcRCiQlT\\pages\\_app.js": 8,
-      "static\\qshSIT0wWBPVYQcRCiQlT\\pages\\_error.js": 9
+      "static\\qshSIT0wWBPVYQcRCiQlT\\pages\\_error.js": 9,
+      "static\\2XTSp8wI9vt~2EThTXiTF\\pages\\index.js": 3,
+      "static\\2XTSp8wI9vt~2EThTXiTF\\pages\\_app.js": 4,
+      "static\\2XTSp8wI9vt~2EThTXiTF\\pages\\_error.js": 5,
+      "static\\0FHy1n5WbXB7P4tzGE0UK\\pages\\index.js": 7,
+      "static\\0FHy1n5WbXB7P4tzGE0UK\\pages\\_app.js": 8,
+      "static\\0FHy1n5WbXB7P4tzGE0UK\\pages\\_error.js": 9,
+      "static\\sFC7PW~HEc1AbdjKs~EOo\\pages\\index.js": 3,
+      "static\\sFC7PW~HEc1AbdjKs~EOo\\pages\\_app.js": 4,
+      "static\\sFC7PW~HEc1AbdjKs~EOo\\pages\\_error.js": 5,
+      "static\\sj~QKQGafEMU~K5APRxpc\\pages\\index.js": 7,
+      "static\\sj~QKQGafEMU~K5APRxpc\\pages\\_app.js": 8,
+      "static\\sj~QKQGafEMU~K5APRxpc\\pages\\_error.js": 9,
+      "static\\Ye_y8u9DUF7iLfG7wtPGV\\pages\\index.js": 3,
+      "static\\Ye_y8u9DUF7iLfG7wtPGV\\pages\\_app.js": 4,
+      "static\\Ye_y8u9DUF7iLfG7wtPGV\\pages\\_error.js": 5,
+      "static\\9z1tYfMvBY3Y996ElX6Ue\\pages\\index.js": 7,
+      "static\\9z1tYfMvBY3Y996ElX6Ue\\pages\\_app.js": 8,
+      "static\\9z1tYfMvBY3Y996ElX6Ue\\pages\\_error.js": 9
     },
     "bySource": {},
     "usedIds": [
