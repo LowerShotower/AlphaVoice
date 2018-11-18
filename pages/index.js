@@ -1,6 +1,8 @@
 import { Component } from 'react'
 import Head from 'next/head'
 import fetch from 'isomorphic-unfetch'
+import "../styles/styles.scss"
+
 
 import Post from '../components/post'
 
@@ -17,6 +19,7 @@ export default class extends Component {
       <main>
         <Head>
           <title>Home page</title>
+          <div className="example">Hello World!</div>
         </Head>
 
         <h1>List of posts</h1>

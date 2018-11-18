@@ -1,5 +1,8 @@
 const fetch = require('isomorphic-unfetch')
 
+const withSass = require('@zeit/next-sass')
+module.exports = withSass()
+
 module.exports = {
   async exportPathMap () {
     // we fetch our list of posts, this allow us to dynamically generate the exported pages

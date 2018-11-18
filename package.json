@@ -2,9 +2,11 @@
   "name": "with-static-export",
   "main": "server.js",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "express": "^4.15.3",
     "isomorphic-unfetch": "^2.0.0",
     "next": "7.0.2",
+    "node-sass": "^4.10.0",
     "react": "16.6.3",
     "react-dom": "16.6.3",
     "serve": "9.4.0"
@@ -15,6 +17,7 @@
     "preexport": "npm run build",
     "export": "next export",
     "prestart": "npm run export",
-    "start": "serve out"
+    "start": "serve out",
+    "server": "next start"
   }
 }
