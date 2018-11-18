@@ -1,17 +1,20 @@
 {
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "be": "next build & next export"
-  },
+  "name": "with-static-export",
+  "main": "server.js",
   "dependencies": {
-    "@zeit/next-css": "1.0.1",
-    "@zeit/next-sass": "^1.0.0",
+    "express": "^4.15.3",
+    "isomorphic-unfetch": "^2.0.0",
     "next": "7.0.2",
-    "node-sass": "^4.7.2",
     "react": "16.6.3",
-    "react-dom": "16.6.3"
+    "react-dom": "16.6.3",
+    "serve": "9.4.0"
+  },
+  "scripts": {
+    "dev": "node .",
+    "build": "next build",
+    "preexport": "npm run build",
+    "export": "next export",
+    "prestart": "npm run export",
+    "start": "serve out"
   }
 }
