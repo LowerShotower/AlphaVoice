@@ -237,7 +237,9 @@
       "node_modules/next/error.js": 233,
       "node_modules/next/dist/lib/error.js": 234,
       "node_modules/http-status/lib/index.js": 235,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js 8752daef65930254b8d94519bfcaa21a": 236
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js 8752daef65930254b8d94519bfcaa21a": 236,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!node_modules/sass-loader/lib/loader.js??ref--5-2!styles/styles.scss": 237,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/sass-loader/lib/loader.js??ref--5-2!styles/styles.scss 0": 238
     },
     "usedIds": {
       "0": 0,
@@ -476,7 +478,9 @@
       "233": 233,
       "234": 234,
       "235": 235,
-      "236": 236
+      "236": 236,
+      "237": 237,
+      "238": 238
     }
   },
   "chunks": {
@@ -499,17 +503,46 @@
       "static\\BVvoEBG_uDahxCilXrJla\\pages\\index.js": 7,
       "static\\BVvoEBG_uDahxCilXrJla\\pages\\post.js": 8,
       "static\\BVvoEBG_uDahxCilXrJla\\pages\\_app.js": 9,
-      "static\\BVvoEBG_uDahxCilXrJla\\pages\\_error.js": 10
+      "static\\BVvoEBG_uDahxCilXrJla\\pages\\_error.js": 10,
+      "static\\fB5gZsLnSfLkgVrY5hQhX\\pages\\index.js": 3,
+      "static\\fB5gZsLnSfLkgVrY5hQhX\\pages\\post.js": 4,
+      "static\\fB5gZsLnSfLkgVrY5hQhX\\pages\\_app.js": 5,
+      "static\\fB5gZsLnSfLkgVrY5hQhX\\pages\\_error.js": 6,
+      "styles": 11
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      10,
+      11,
       2,
-      7,
-      8,
-      9
+      3,
+      4,
+      5,
+      6
     ]
-  }
+  },
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/sass-loader/lib/loader.js??ref--5-2!styles/styles.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!node_modules/sass-loader/lib/loader.js??ref--5-2!styles/styles.scss": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ]
 }

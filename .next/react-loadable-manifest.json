@@ -7,7 +7,7 @@
       "publicPath": "static/chunks/commons.bfbf964aabea89c4daf0.js"
     }
   ],
-  "../../modules/_core": [
+  "../modules/_core": [
     {
       "id": 1,
       "name": "./node_modules/core-js/library/modules/_core.js",
@@ -1645,6 +1645,22 @@
       "name": "./node_modules/core-js/library/fn/json/stringify.js",
       "file": "static/chunks/commons.bfbf964aabea89c4daf0.js",
       "publicPath": "static/chunks/commons.bfbf964aabea89c4daf0.js"
+    }
+  ],
+  "../styles/styles.scss": [
+    {
+      "id": 237,
+      "name": "./styles/styles.scss",
+      "file": "static/chunks/styles.6e354271c03d8fdf2376.js",
+      "publicPath": "static/chunks/styles.6e354271c03d8fdf2376.js"
+    }
+  ],
+  "undefined": [
+    {
+      "id": 238,
+      "name": null,
+      "file": "static/chunks/styles.6e354271c03d8fdf2376.js",
+      "publicPath": "static/chunks/styles.6e354271c03d8fdf2376.js"
     }
   ]
 }
