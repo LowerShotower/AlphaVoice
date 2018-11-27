@@ -14,7 +14,7 @@ module.exports = withSass({
       (pages, slug) =>
         Object.assign({}, pages, {
           [`/alphavoiceio/${slug}`]: {
-            page: '/publisher',
+            page: 'publisher',
             query: { slug }
           }
         }),
