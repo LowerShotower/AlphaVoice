@@ -6,14 +6,17 @@ export default class extends Component {
 
       const response = await fetch(`https://app.alphavoice.io/api/v1/app/?publisher=alphavoiceio&slug=${ctx.query.slug}`);
       const data = await response.json();
-      let app_id = data.results[0].app_id;
-      return { app_id };
+      let project = data.results[0];
+      return { ...project };
+
   }
 
   render () {
     return (
-      <main>
-          { this.props.app_id}
+      <main className="example">
+          {
+              this.props.app_id
+          }
       </main>
     )
   }

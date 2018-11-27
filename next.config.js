@@ -13,8 +13,8 @@ module.exports = withSass({
     const pages = slugs.reduce(
       (pages, slug) =>
         Object.assign({}, pages, {
-          [`/publisher/${slug}`]: {
-            page: '/publisher',
+          [`/project/${slug}`]: {
+            page: '/project',
             query: { slug }
           }
         }),
