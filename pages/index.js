@@ -1,31 +1,26 @@
-import { Component } from 'react'
-import Head from 'next/head'
+import React,{ Component } from 'react'
 import fetch from 'isomorphic-unfetch'
 import "../styles/styles.scss"
-
-
 import Post from '../components/post'
 
 export default class extends Component {
+
   static async getInitialProps () {
     // fetch list of posts
-    const response = await fetch('https://jsonplaceholder.typicode.com/posts?_page=1')
-    const postList = await response.json()
-    return { postList }
+      const response = await fetch(`https://app.alphavoice.io/api/v1/app/?publisher=alphavoiceio`)
+      const data = await response.json()
+      let slugs = data.results.map((result) => result.slug);
+      return { slugs };
   }
 
   render () {
+
     return (
       <main>
-        <Head>
-          <title>Home page</title>
-          <div className="example">Hello World!</div>
-        </Head>
-
-        <h1>List of posts</h1>
-
         <section>
-          {this.props.postList.map(post => <Post {...post} key={post.id} />)}
+          {
+              this.props.slugs.map((slug,id) => <Post slug={slug} key={id} />)
+          }
         </section>
       </main>
     )
