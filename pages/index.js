@@ -8,6 +8,7 @@ export default class extends Component {
 
   static async getInitialProps ({ res }) {
       res.redirect('/video/alphavoiceio/');
+
       /*console.log('1');
       if (!res.headersSent) {
           console.log('2');
@@ -18,9 +19,11 @@ export default class extends Component {
       }*/
 
 
-      return {}
+      if (res.finished) return {};
 
   }
+
+
 
   render () {
 
