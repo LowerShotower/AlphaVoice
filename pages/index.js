@@ -6,24 +6,24 @@ import Router from 'next/router';
 
 export default class extends Component {
 
-  static async getInitialProps ({ res }) {
-      res.redirect('/video/alphavoiceio/');
+  static async getInitialProps ({res}) {
 
-      /*console.log('1');
-      if (!res.headersSent) {
-          console.log('2');
-          if (typeof res.writeHead === 'function') {
-              console.log('3');
-              res.writeHead(302, {Location: '/video/alphavoiceio/'});
-          }
+
+      /*if(res) {
+
+      }
+      else {
+          console.log(window.location.href);
+          window.location.href = '/video/alphavoiceio/';
       }*/
 
-
-      if (res.finished) return {};
+      return {};
 
   }
 
-
+    componentDidMount() {
+        window.location.href = '/video/alphavoiceio/';
+    }
 
   render () {
 
