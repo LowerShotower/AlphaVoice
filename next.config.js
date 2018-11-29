@@ -13,7 +13,7 @@ module.exports = withSass({
     const pages = slugs.reduce(
       (pages, slug) =>
         Object.assign({}, pages, {
-          [`video/alphavoiceio/${slug}`]: {
+          [`/video/alphavoiceio/${slug}`]: {
             page: '/show',
             query: { slug }
           }
