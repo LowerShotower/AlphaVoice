@@ -13,18 +13,19 @@ module.exports = withSass({
     const pages = slugs.reduce(
       (pages, slug) =>
         Object.assign({}, pages, {
-          [`/project/${slug}`]: {
-            page: '/project',
+          [`video/alphavoiceio/${slug}`]: {
+            page: '/show',
             query: { slug }
           }
         }),
       {}
-    )
+    );
 
     // combine the map of post pages with the home
     return Object.assign({}, pages, {
-      '/': { page: '/' }
+        '/': { page: '/' },
+        '/video/alphavoiceio/': { page: '/publisher' }
     })
   }
-})
+});
 
