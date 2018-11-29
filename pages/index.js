@@ -7,17 +7,15 @@ import Router from 'next/router';
 export default class extends Component {
 
   static async getInitialProps ({ res }) {
-
-    const _writeHead = res.writeHead.bind(res);
-
-      if(res){
-          _writeHead(302, {
-              Location: '/video/alphavoiceio/'
-          });
-          res.end();
-      } else {
-          Router.push('/video/alphavoiceio/');
-      }
+      res.redirect('/video/alphavoiceio/');
+      /*console.log('1');
+      if (!res.headersSent) {
+          console.log('2');
+          if (typeof res.writeHead === 'function') {
+              console.log('3');
+              res.writeHead(302, {Location: '/video/alphavoiceio/'});
+          }
+      }*/
 
 
       return {}
