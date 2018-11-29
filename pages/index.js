@@ -8,8 +8,10 @@ export default class extends Component {
 
   static async getInitialProps ({ res }) {
 
+    const _writeHead = res.writeHead.bind(res);
+
       if(res){
-          res.writeHead(302, {
+          _writeHead(302, {
               Location: '/video/alphavoiceio/'
           });
           res.end();
